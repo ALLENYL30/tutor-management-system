@@ -1,0 +1,26 @@
+.registerComponent {
+  /* text-align: center; */
+  width: 500px;
+  display: flex;
+  border-width:1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 5px 0px 20px #888888;
+}
+
+.Register_button{
+  margin: 0 20px 0 20px;
+}
+
+/* .App #passwordHelpBlock{
+  width: 60%;
+} */
+

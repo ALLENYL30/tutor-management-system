@@ -1,0 +1,137 @@
+.searchComponent {
+  display: flex;
+  width: 100vw;
+  /* height: 600px; */
+  /* border-style: solid;
+    border-color: blue;
+    border-radius: 25px; */
+  padding: 20px;
+  flex-direction: column;
+  padding-top: 64px;
+  align-items: center;
+}
+
+.search {
+  margin: 20px 0 20px 0;
+}
+
+.showTutors {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.showTutors img {
+  width: 120px;
+  height: 120px;
+  margin-right: 15px;
+}
+
+.tutorInfo {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 350px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  /* flex-direction: column; */
+  margin: 20px;
+  /* white-space: pre-line; */
+  box-shadow: 5px 5px 20px #888888;
+}
+
+.tutorRateDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratingText {
+  margin-right: 5px;
+}
+
+.ratingNumberText {
+  margin-left: 8px;
+}
+
+.tutorCardHead {
+  display: flex;
+  flex-direction: row;
+}
+
+.tutorCardHeadRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookButtonDiv {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.site-calendar-customize-header-wrapper {
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+
+.studentBooking{
+  display: flex;
+  width: 900px;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px #888888;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: white;
+}
+
+.calendar{
+  display: flex;
+  width: 900px;
+  /* height: 700px; */
+  /* border-style: solid;
+  border-radius: 25px;
+  border-color: white; */
+  /* flex-direction: column  ; */
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  /* box-shadow: 5px 5px 20px #888888; */
+}
+
+.selectTime{
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+  border-left-style: solid;
+  border-color: black;
+  padding: 30px;
+}
+
+.timeTips{
+  margin: 10px;
+  width: 400px;
+}
+
+.selectTimeButton{
+  margin: 10px;
+}
+.submitAppointment{
+  margin: 20px;
+}
+
+.timeButton{
+  /* border-color: #33ff99; */
+  background-color: white;
+  border-radius: 25px;
+  border-style: solid;
+  /* color: green; */
+  height: 40px;
+}

@@ -1,0 +1,32 @@
+/* hero.css */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  /* Remove the negative margins */
+  /* margin-top: -200px; */
+  /* margin-bottom: -200px; */
+  height: 450px; /* Adjusts to fit the content */
+  width: auto;
+  margin-bottom: 60px;
+  background-image: url("./image/test2.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-text-div {
+  padding-left: 500px; /* Move a little to the right */
+  /* padding-bottom: 300px; */
+}
+
+.hero-text h1 {
+  font-size: 4.5em; /* Make text larger */
+}
+
+.hero-text p {
+  font-size: 2em; /* Make text larger */
+}

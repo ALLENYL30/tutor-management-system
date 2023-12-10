@@ -1,0 +1,126 @@
+/* StudentChat.css */
+
+.layout {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  overflow: hidden; /* Prevent scrolling on the x-axis */
+}
+
+.sider {
+  width: 256px; /* Adjust width as needed, similar to the sidebar in the screenshot */
+  height: 100vh;
+  background: #ffa500; /* This is a standard orange color, adjust the hex value as needed for orange-yellow */
+  color: white;
+  padding: 20px;
+  overflow: auto; /* Scroll for overflow content */
+  /* ... other styles ... */
+}
+
+.searchInput .ant-input {
+  padding: 10px;
+  border-radius: 15px; /* Rounded corners for the input field */
+  color: #000; /* Dark color for text */
+  background: #ffffff; /* Solid white background for the input */
+  border: 1px solid #d9d9d9; /* Border to match the sider separator */
+}
+
+/* Adjusts the styling for contact list items */
+.contactList .ant-list-item {
+  color: #000; /* Dark color for text */
+  background: #ffffff; /* White background for list items */
+  border: 1px solid #d9d9d9; /* Border to match the input field */
+  border-radius: 15px; /* Rounded corners for the border */
+  margin-bottom: 8px; /* Space between items */
+  transition: box-shadow 0.3s; /* Smooth transition for hover effect */
+  display: flex;
+  align-items: center; /* This will vertically center the content */
+  justify-content: center; /* This will horizontally center the content */
+  text-align: center; /* This ensures that the text itself is centered */
+}
+
+.contactList .ant-list-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Shadow effect on hover */
+}
+
+.contactList .ant-list-item.selected {
+  background-color: #e6f7ff; /* Light blue background for the selected item */
+  border-color: #91d5ff; /* Matching border color */
+}
+
+.sendButton {
+  background-color: #1890ff; /* Ant Design's blue for the button */
+  border-color: #1890ff; /* Same for the border */
+  color: #ffffff; /* White text */
+}
+
+.sendButton:hover {
+  background-color: #40a9ff; /* Lighter blue for hover */
+  border-color: #40a9ff;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 800px;
+  height: calc(100vh - 40px);
+  padding: 20px;
+  background: #fff; /* White background for the content */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.messageBox {
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.messageInput {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.button {
+  white-space: nowrap;
+}
+
+.welcomeMessage {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+/* ...existing styles... */
+
+.message {
+  padding: 5px; /* Add padding inside each message for better spacing */
+  margin-bottom: 10px; /* Add space below each message */
+  border-bottom: 1px solid #f0f0f0; /* Optional: adds a line to separate messages */
+}
+
+.sider .logoContainer {
+  text-align: center; /* Centers the content */
+  padding: 10px; /* Adds some padding around the logo and title */
+}
+
+.sider .logo {
+  width: 100px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Space between logo and title */
+}
+
+.sider .title {
+  font-weight: bold;
+  color: orange; /* Adjust the color as needed */
+  margin: 0; /* Removes default margin from h1 */
+}

@@ -1,0 +1,59 @@
+.headerDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.LoginPage {
+  display: flex;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+  /* position: relative; */
+}
+
+.loginImg {
+  width: 500px;
+  height: 500px;
+  /* position: absolute; */
+  border-radius: 10px;
+  left: 0;
+  margin-right: 15px;
+}
+
+.loginComponent {
+    width: 500px;
+    display: flex;
+    border-width:1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 0px 20px #888888;
+  }
+  
+  .loginFormStyle{
+    width: 250px;
+  }
+  
+  .Login_button{
+    margin: 0 20px 0 20px;
+    width:150px
+  }
+  
+  .jumpToRegister{
+    height: 30px;
+    width: 60px;
+  }
+  
+  
+  
